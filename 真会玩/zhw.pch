@@ -1,0 +1,32 @@
+//
+//  zhw.pch
+//  真会玩
+//
+//  Created by Coby on 16/12/20.
+//  Copyright © 2016年 TXJ. All rights reserved.
+//
+
+#ifndef zhw_pch
+#define zhw_pch
+#import "Me_ViewController.h"
+#import "Message_ViewController.h"
+#import "Home_ViewController.h"
+#import "Add_ViewController.h"
+#import "Square_ViewController.h"
+#import "XJModel.h"
+#import "User_info.h"
+#import "Search_ViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* zhw_pch */
+#define XJImage(imageName) [UIImage imageNamed:(imageName)]
+#define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define WiDTH self.view.bounds.size.width
+#define HEIGHT self.view.bounds.size.height
+//用户基本信息
+#define userMessage @"usermessage"
+#define default_image @"mine_default_head"
+#define b_height bounds.size.height
+#define b_width bounds.size.width
+#define frame_y    frame.origin.y //距离父试图的Y距离
